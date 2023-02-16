@@ -1,0 +1,1186 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19045.2604; Version 2009; 64bit' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/retro/OneDrive/Documents/GitHub/VR Room Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63323
+Successfully changed project path to: C:/Users/retro/OneDrive/Documents/GitHub/VR Room Project
+C:/Users/retro/OneDrive/Documents/GitHub/VR Room Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 84.41 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.43 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/retro/OneDrive/Documents/GitHub/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4017 MB
+    Driver:   31.0.15.2849
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003613 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.95 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.102 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.86 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/retro/OneDrive/Desktop/Create-with-VR_2020LTS/Create-with-VR_2020LTS/VR Room Project/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 3.114200 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.229600 ms MarkObjects: 2.232000 ms  DeleteObjects: 0.106900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab
+  artifactKey: Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab using Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525de0fea7d36b12bdd3752fef4c3638') in 0.586685 seconds
+  Import took 0.593480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button.prefab
+  artifactKey: Guid(4350e15b07f2fc44483310bd26db1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button.prefab using Guid(4350e15b07f2fc44483310bd26db1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea44dc90ac18f796969d759319869b') in 0.022385 seconds
+  Import took 0.028416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Course Library/Models/Drawers_Traditional.fbx
+  artifactKey: Guid(67694f14d5fd8314bb5cbefc9d95a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Drawers_Traditional.fbx using Guid(67694f14d5fd8314bb5cbefc9d95a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e1d1b43b306d1a00c6ef43865c9734') in 0.525382 seconds
+  Import took 0.531805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Joystick.prefab
+  artifactKey: Guid(0952ab382e51745468fbfd655b1a4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Joystick.prefab using Guid(0952ab382e51745468fbfd655b1a4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6518f3f7ebc5a0f964409f97721fd5a4') in 0.020579 seconds
+  Import took 0.026382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Knob.prefab
+  artifactKey: Guid(704ff36a9c354164f8eab01deabb38ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Knob.prefab using Guid(704ff36a9c354164f8eab01deabb38ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c302b58cc7056fde2df5983c2b8936') in 0.020705 seconds
+  Import took 0.026928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Traditional_Log5.FBX
+  artifactKey: Guid(2ca5b4c69a70354458bbe61a53e0d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Traditional_Log5.FBX using Guid(2ca5b4c69a70354458bbe61a53e0d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0df0b960dd8ee60dafad5c23a1f851') in 0.031002 seconds
+  Import took 0.036253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab
+  artifactKey: Guid(f23518a35037252409252c1ade394e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab using Guid(f23518a35037252409252c1ade394e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d74ccb3d8307e34d641e003d4f300') in 0.019554 seconds
+  Import took 0.025109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Course Library/Models/Chair_Modern.fbx
+  artifactKey: Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Modern.fbx using Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5994ff77a507d53cbb1c8a692ac2948') in 0.018707 seconds
+  Import took 0.024149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_Course Library/Models/Bin_A_2.fbx
+  artifactKey: Guid(cc232384fdabfcd4495a8fc87e275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_A_2.fbx using Guid(cc232384fdabfcd4495a8fc87e275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1753209b9dcb8ead978d00a12e4ed723') in 0.026542 seconds
+  Import took 0.032002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Background_Buildings.prefab
+  artifactKey: Guid(4e12f80178b8d6e47a7b602b9e2f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Background_Buildings.prefab using Guid(4e12f80178b8d6e47a7b602b9e2f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b94d0a3bfbd729e613b63fbc27262b') in 0.028050 seconds
+  Import took 0.033525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Brown.prefab
+  artifactKey: Guid(ea6a96590aa46c349ad75158bd6212f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Brown.prefab using Guid(ea6a96590aa46c349ad75158bd6212f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f73803001b8f30d822e37d3f6afdd') in 0.023690 seconds
+  Import took 0.030114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create_with_VR_Starter_Scene.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a4d2ede868c158e43fcce0b91981d2') in 0.005767 seconds
+  Import took 0.011792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Containers/Container_Bottle_Blue.prefab
+  artifactKey: Guid(dc9d604fc9e605b4287415291cda0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Containers/Container_Bottle_Blue.prefab using Guid(dc9d604fc9e605b4287415291cda0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b58bcf4bdfc019b6c7712d73c557eb') in 0.032427 seconds
+  Import took 0.037855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab
+  artifactKey: Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab using Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7b51fcf1caf901daf0d00e46ffa00c') in 0.019952 seconds
+  Import took 0.025848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab
+  artifactKey: Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab using Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1e1229fd254f1154c40fdd026ab5cf') in 0.021866 seconds
+  Import took 0.027488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Traditional_Log1.FBX
+  artifactKey: Guid(13f324d674ec7ee4db96a6efa43bea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Traditional_Log1.FBX using Guid(13f324d674ec7ee4db96a6efa43bea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4f58f6234d329c0b00cbea0644287') in 0.031275 seconds
+  Import took 0.036844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab
+  artifactKey: Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab using Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2f8be24e620dc82d542c572db031f') in 0.020558 seconds
+  Import took 0.025577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Course Library/Models/Food_Apple.fbx
+  artifactKey: Guid(849ab66be6b9d5149adcdc3fda487ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Food_Apple.fbx using Guid(849ab66be6b9d5149adcdc3fda487ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd19efd73a86b98eb4bd1c243ae613c') in 0.025263 seconds
+  Import took 0.031087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Challenges/02_3DPainting/Prefabs/Cube.prefab
+  artifactKey: Guid(d5ce24e5a4b7c204f91c5fcf332df0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Prefabs/Cube.prefab using Guid(d5ce24e5a4b7c204f91c5fcf332df0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4082b7301de8de848e32fe15053c71e') in 0.019936 seconds
+  Import took 0.024966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab
+  artifactKey: Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Clock_Analog_Black.prefab using Guid(278cd79b6d0575544a70c9035c7a440e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a8e016347b031ee631c1e0e74d8c2b') in 0.019937 seconds
+  Import took 0.024857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4dfebe400660f5165ed993a18173dd') in 0.005356 seconds
+  Import took 0.011249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Traditional_Log2.FBX
+  artifactKey: Guid(4ad293eca63c4df488d5d80413465ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Traditional_Log2.FBX using Guid(4ad293eca63c4df488d5d80413465ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1caab644abcc0ac59598372b72ee89') in 0.029735 seconds
+  Import took 0.034803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_Course Library/_Prefabs/Bins/Bin_Round_White.prefab
+  artifactKey: Guid(f53b75d63a0f12e4f9207b643d400e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Bins/Bin_Round_White.prefab using Guid(f53b75d63a0f12e4f9207b643d400e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3568e5e89500b2aa083f51c8b4fcf13d') in 0.022248 seconds
+  Import took 0.027467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab
+  artifactKey: Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab using Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e22a6615b500132fd57faf54095ab') in 0.020881 seconds
+  Import took 0.026411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/_Course Library/Models/Fireplace_modern_Log4.FBX
+  artifactKey: Guid(cd58a5341918c884a948876bd8a90b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_modern_Log4.FBX using Guid(cd58a5341918c884a948876bd8a90b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43855648eda8cd6e28f3cfd00fd569c8') in 0.026711 seconds
+  Import took 0.031347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Rustic.fbx
+  artifactKey: Guid(1b4ad4fa6da837f41975af9162b2c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Rustic.fbx using Guid(1b4ad4fa6da837f41975af9162b2c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c01d20135b32ab6bbf7028c16c6ca06') in 0.044156 seconds
+  Import took 0.048976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/_Course Library/Models/Couch_Traditional_C.fbx
+  artifactKey: Guid(59613de0856abbf419f5c53672639bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Couch_Traditional_C.fbx using Guid(59613de0856abbf419f5c53672639bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4491de32c9c6109ef485141f3f6e6fd2') in 0.022059 seconds
+  Import took 0.027816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Brown.prefab
+  artifactKey: Guid(d1a190085dcf07e4c9961f5b83d0c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Brown.prefab using Guid(d1a190085dcf07e4c9961f5b83d0c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0acb2277771e99376cb6cbb847441c') in 0.021541 seconds
+  Import took 0.026823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab
+  artifactKey: Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab using Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aeed35a41b9c231f84e80ba08bbe77') in 0.018843 seconds
+  Import took 0.023686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gray.prefab
+  artifactKey: Guid(457f2848d5450fe40b602740b823eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gray.prefab using Guid(457f2848d5450fe40b602740b823eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934f3c5cc29947dd8041d4fbed963e71') in 0.020982 seconds
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/_Course Library/Models/Container_Bottle.fbx
+  artifactKey: Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Container_Bottle.fbx using Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b9777cf8ace9b0acc4c83c5693ec38') in 0.030245 seconds
+  Import took 0.036217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_Course Library/Models/Chest_Traditional.fbx
+  artifactKey: Guid(0a94d050e88f6ec40ad49fea002caa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chest_Traditional.fbx using Guid(0a94d050e88f6ec40ad49fea002caa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85b7e877183edd6d5b0588c53ba3e7d') in 0.032564 seconds
+  Import took 0.037399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Rustic_Log4.FBX
+  artifactKey: Guid(31c163289e5a4a14a89443673679f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Rustic_Log4.FBX using Guid(31c163289e5a4a14a89443673679f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114c7e1a83270846d1d8d12e7d060937') in 0.027324 seconds
+  Import took 0.031911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/_Course Library/Models/Backgrounds/BuldingBlock_2.fbx
+  artifactKey: Guid(fafbe2be630728948b3232d286fcfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Backgrounds/BuldingBlock_2.fbx using Guid(fafbe2be630728948b3232d286fcfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b58cf03dc82d6ff5bec9f6d9a4d50a') in 0.026509 seconds
+  Import took 0.031515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/_Course Library/Models/Fireplace_Rustic_Log1.FBX
+  artifactKey: Guid(48dd0febe89c91d4d94acd05e4728627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fireplace_Rustic_Log1.FBX using Guid(48dd0febe89c91d4d94acd05e4728627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7f301aa3ef2e4257eac321a12f97cc') in 0.030596 seconds
+  Import took 0.035860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Course Library/Models/Couch_Traditional_B.fbx
+  artifactKey: Guid(8eb988e5c2855974ebfe21130111a1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Couch_Traditional_B.fbx using Guid(8eb988e5c2855974ebfe21130111a1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c627b9aa4e7d210f116e0e36a348d5b1') in 0.026912 seconds
+  Import took 0.032573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410286 seconds.
+  path: Assets/Scenes/Tiffanys Room.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tiffanys Room.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9c944ba01a2301c5d1a18004bd0a75') in 0.006293 seconds
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.836310 seconds.
+  path: Assets/_Course Library/_Prefabs
+  artifactKey: Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs using Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb1e926933c0539cd115b9bd21cc67') in 0.006644 seconds
+  Import took 0.012244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.116613 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments
+  artifactKey: Guid(36ae34743d39542b8b8272435b5d3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments using Guid(36ae34743d39542b8b8272435b5d3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe5f45f64da4ffc9741425291d1ffe7') in 0.006796 seconds
+  Import took 0.012879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037856 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Background_Hills.prefab
+  artifactKey: Guid(ba41cc3523f70d94981ec452dc307e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Background_Hills.prefab using Guid(ba41cc3523f70d94981ec452dc307e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00bb06b4607a8caeb93a4bb4e6d746c') in 0.016878 seconds
+  Import took 0.022989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab
+  artifactKey: Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab using Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea5c0f13c8a87719893be07998b930') in 0.057240 seconds
+  Import took 0.062317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Foreground_Hills.prefab
+  artifactKey: Guid(445506bfe97f74618aa3dac2a010ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Foreground_Hills.prefab using Guid(445506bfe97f74618aa3dac2a010ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6945a0f320c1c8a496c798407e90a668') in 0.032018 seconds
+  Import took 0.037557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005108 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Foreground_Hills.prefab
+  artifactKey: Guid(445506bfe97f74618aa3dac2a010ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Foreground_Hills.prefab using Guid(445506bfe97f74618aa3dac2a010ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6945a0f320c1c8a496c798407e90a668') in 0.011968 seconds
+  Import took 0.018743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.122313 seconds.
+  path: Assets/_Course Library/_Prefabs/Art
+  artifactKey: Guid(c62afc3c4cc81429babf50436768194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art using Guid(c62afc3c4cc81429babf50436768194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e58f250999b52dbe16c3912d4eaef29') in 0.006625 seconds
+  Import took 0.013325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045143 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab
+  artifactKey: Guid(2cdc705002a6a784580137dd120e64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab using Guid(2cdc705002a6a784580137dd120e64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc37df39f954475cfc440fc95c9ec77') in 0.021359 seconds
+  Import took 0.027367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Mountain.prefab
+  artifactKey: Guid(8b55f4b13da640a458a5a4336c489584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Mountain.prefab using Guid(8b55f4b13da640a458a5a4336c489584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9ee53cf0ccf43261ba854a3bf23fb9') in 0.029676 seconds
+  Import took 0.037996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab
+  artifactKey: Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab using Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5a5316c0510f9dfa4db20f58a5c15') in 0.025228 seconds
+  Import took 0.030853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Swan.prefab
+  artifactKey: Guid(a3e93e0121486e340ac0796260e744ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Swan.prefab using Guid(a3e93e0121486e340ac0796260e744ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de93f31ba3450526ada7ad9df00695c2') in 0.021111 seconds
+  Import took 0.069950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab
+  artifactKey: Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab using Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5a5316c0510f9dfa4db20f58a5c15') in 0.010681 seconds
+  Import took 0.015443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Sunset.prefab
+  artifactKey: Guid(7b844f6cdc7f1ce4fba989b2d7db9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Sunset.prefab using Guid(7b844f6cdc7f1ce4fba989b2d7db9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6bb9e9f64cab10180a3e918717e19d') in 0.025635 seconds
+  Import took 0.133677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.593835 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions
+  artifactKey: Guid(e59171cfb707b4906ada5f378ce3b411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions using Guid(e59171cfb707b4906ada5f378ce3b411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a6036f726dfe718abd49d17920171') in 0.005915 seconds
+  Import took 0.012122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331056 seconds.
+  path: Assets/_Course Library/_Prefabs/Testing
+  artifactKey: Guid(f59098e71617647aea3fb5e02bb02e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Testing using Guid(f59098e71617647aea3fb5e02bb02e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be997a88af90179fe796ad0bca9a71') in 0.005664 seconds
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316387 seconds.
+  path: Assets/_Course Library/_Prefabs/VR
+  artifactKey: Guid(bf714010cdfb44373868ddb2da4e8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR using Guid(bf714010cdfb44373868ddb2da4e8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7892e77c58ed6a59c7ecc7d6dffec1bb') in 0.006921 seconds
+  Import took 0.013738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518736 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables
+  artifactKey: Guid(4dfaf0605da184b6cb1a709b106e0711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables using Guid(4dfaf0605da184b6cb1a709b106e0711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a54c3d8a582a6fffda148e746cd111b') in 0.005961 seconds
+  Import took 0.012192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294632 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage
+  artifactKey: Guid(f8e9d7c214ea04efab617583a3b27541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage using Guid(f8e9d7c214ea04efab617583a3b27541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bfd9338127e616295c1e7bfe1ac9e5') in 0.006296 seconds
+  Import took 0.012448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.793127 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms
+  artifactKey: Guid(b8c01ec013b52432398ae23013d26672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms using Guid(b8c01ec013b52432398ae23013d26672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3244cc5d42f043e279aa63feed4383a2') in 0.011358 seconds
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037975 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab
+  artifactKey: Guid(d9470993b9bd0a541a884d6f6704a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab using Guid(d9470993b9bd0a541a884d6f6704a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d765cc64ca36156841400db79c235c7') in 0.040272 seconds
+  Import took 0.046713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab
+  artifactKey: Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab using Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df34401208692d02daeaa8febb04a0c6') in 0.062238 seconds
+  Import took 0.067933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Traditional.prefab
+  artifactKey: Guid(880db112787483b4bb85a9812586967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Traditional.prefab using Guid(880db112787483b4bb85a9812586967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a570ef3f1b06354da0759c58adf17c') in 0.058776 seconds
+  Import took 0.064214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.626844 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(883928fc95ced4a13a405c0523474128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(883928fc95ced4a13a405c0523474128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcf574d2d852f8a42a5b1902192c08c') in 0.006436 seconds
+  Import took 0.012335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.521720 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3
+  artifactKey: Guid(b5bafc385e6684cfbba5e08a83e2198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3 using Guid(b5bafc385e6684cfbba5e08a83e2198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a13704459f4cfb039d61e140f33daf') in 0.006193 seconds
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830037 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator
+  artifactKey: Guid(5c0d9c9cb064045f298e3bd59e3c4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator using Guid(5c0d9c9cb064045f298e3bd59e3c4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff74a39cb2aa176667b27e0214665996') in 0.006025 seconds
+  Import took 0.011201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080382 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de018500e739e53d00708782a5be7b7') in 0.024003 seconds
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72ea5c6e001454722c03becf338e139') in 0.007345 seconds
+  Import took 0.012231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/retro/OneDrive/Desktop/Create-with-VR_2020LTS/Create-with-VR_2020LTS/VR Room Project/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 137.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3626.
+Total: 2.604000 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.162900 ms MarkObjects: 2.088400 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\retro\OneDrive\Desktop\Create-with-VR_2020LTS\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/retro/OneDrive/Desktop/Create-with-VR_2020LTS/Create-with-VR_2020LTS/VR Room Project/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 137.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3630.
+Total: 3.128600 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.549400 ms  DeleteObjects: 0.022100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 444.495828 seconds.
+  path: Assets/_Course Library/_Prefabs/Hooks
+  artifactKey: Guid(6765169add0644d1ea2404fede15dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Hooks using Guid(6765169add0644d1ea2404fede15dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f96bce1bc59c604b1f37f9c26a03b') in 0.011198 seconds
+  Import took 0.017433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084910 seconds.
+  path: Assets/_Course Library/_Prefabs/Hooks/Hook_Modern.prefab
+  artifactKey: Guid(9c50d789c0c63e14f8e1f1447e1132bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Hooks/Hook_Modern.prefab using Guid(9c50d789c0c63e14f8e1f1447e1132bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5000a13c0a189e700da56fde3dc2f20a') in 0.152414 seconds
+  Import took 0.157697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Course Library/_Prefabs/Hooks/Hook_Traditional.prefab
+  artifactKey: Guid(7ddd5c018cc2acd4094172e843dc019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Hooks/Hook_Traditional.prefab using Guid(7ddd5c018cc2acd4094172e843dc019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73632932054ce019e9687baa0ea626ea') in 0.024373 seconds
+  Import took 0.029210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.510891 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors
+  artifactKey: Guid(e5a2cbb8fc3984d31abfea24a131b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Mirrors using Guid(e5a2cbb8fc3984d31abfea24a131b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8e0cd7fb064b5a6a9ad72cac88a968') in 0.005882 seconds
+  Import took 0.011207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068202 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab
+  artifactKey: Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab using Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f594a67d1c7a33f1ac9d0b78f89b2f54') in 0.038446 seconds
+  Import took 0.043804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Brown.prefab
+  artifactKey: Guid(ab8bc30cac3fdea4ebb6fed84ac46cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Brown.prefab using Guid(ab8bc30cac3fdea4ebb6fed84ac46cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3a8a466c5869b154ece5aa075927e3') in 0.035007 seconds
+  Import took 0.039698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.511115 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs
+  artifactKey: Guid(3c4df7fcbe8f540d19e104d70f3c2552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs using Guid(3c4df7fcbe8f540d19e104d70f3c2552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8476fb62e4e471f287acd51c6e3e15a2') in 0.006955 seconds
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066977 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab
+  artifactKey: Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab using Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a95dcacf888535d6737b2f0b93b4f1') in 0.021062 seconds
+  Import took 0.026109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab
+  artifactKey: Guid(51c07d60274ac13489e2a61ff62c251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab using Guid(51c07d60274ac13489e2a61ff62c251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd515547b81c767542dccae19e72020') in 0.018404 seconds
+  Import took 0.023535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab
+  artifactKey: Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab using Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d16438bc32b67b124af80f6cc1316c') in 0.018613 seconds
+  Import took 0.024202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Gray.prefab
+  artifactKey: Guid(4fedbc191226c1146a147611e5fc67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Gray.prefab using Guid(4fedbc191226c1146a147611e5fc67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef07c3418c726fa05ac477772a6128b5') in 0.020649 seconds
+  Import took 0.026288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab
+  artifactKey: Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab using Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abff5daada24c69b8349f343e0f9db96') in 0.018305 seconds
+  Import took 0.023558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Blue.prefab
+  artifactKey: Guid(cc8e9c60e8b51f541b58d256ac509ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Blue.prefab using Guid(cc8e9c60e8b51f541b58d256ac509ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bde48bd492d2fb6505f230f6436232') in 0.018981 seconds
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab
+  artifactKey: Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab using Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abff5daada24c69b8349f343e0f9db96') in 0.009484 seconds
+  Import took 0.014776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab
+  artifactKey: Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab using Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5618e6f712a8b7ebf8ec47a257915ef3') in 0.018435 seconds
+  Import took 0.024064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab
+  artifactKey: Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab using Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efac4730331033e163f79ee17eda375') in 0.018734 seconds
+  Import took 0.024210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.950368 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab
+  artifactKey: Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab using Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bc533fc2e7fc754d5860c08cac5bbb') in 0.027061 seconds
+  Import took 0.032200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions/TV_FlatWithStand.prefab
+  artifactKey: Guid(8d8fb26dd6a666247b80ad25ad1e316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions/TV_FlatWithStand.prefab using Guid(8d8fb26dd6a666247b80ad25ad1e316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949a9fb8a27b95f04d2b9e1bca5d1a1a') in 0.019157 seconds
+  Import took 0.024238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005947 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions/TV_FlatWithStand.prefab
+  artifactKey: Guid(8d8fb26dd6a666247b80ad25ad1e316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions/TV_FlatWithStand.prefab using Guid(8d8fb26dd6a666247b80ad25ad1e316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949a9fb8a27b95f04d2b9e1bca5d1a1a') in 0.012348 seconds
+  Import took 0.018117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.455392 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Modern.prefab
+  artifactKey: Guid(a35b0267215e7e946a2a8f481f48fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Modern.prefab using Guid(a35b0267215e7e946a2a8f481f48fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579fb21a3352efd0c84243402d1034dd') in 0.020103 seconds
+  Import took 0.025850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Dark.prefab
+  artifactKey: Guid(12c3467b95c7e5c4b9c2f42733663d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Dark.prefab using Guid(12c3467b95c7e5c4b9c2f42733663d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846ddcf4fb642ee733a6af48367f6023') in 0.019424 seconds
+  Import took 0.024424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Traditional_Dark.prefab
+  artifactKey: Guid(f290f489f4196974db7a37718d9fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Traditional_Dark.prefab using Guid(f290f489f4196974db7a37718d9fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef720dbed26b6894bc4d462ca4b53be') in 0.019430 seconds
+  Import took 0.024591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Brown.prefab
+  artifactKey: Guid(b5dd15abea9c3644abf1d3bd1a7f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Brown.prefab using Guid(b5dd15abea9c3644abf1d3bd1a7f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782bd8ec3b7d25ccbac7c5c92dff0394') in 0.019206 seconds
+  Import took 0.024787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Side_Traditional.prefab
+  artifactKey: Guid(2f20e9b17e3c892419d73072a4223c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Side_Traditional.prefab using Guid(2f20e9b17e3c892419d73072a4223c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f56570db8253a3f9e71137415114334') in 0.021257 seconds
+  Import took 0.026957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Black.prefab
+  artifactKey: Guid(2970332bcab6ddf43a43824174efe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Black.prefab using Guid(2970332bcab6ddf43a43824174efe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8523be816b9b97f75757e0493fd1f7f') in 0.020248 seconds
+  Import took 0.025674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Traditional.prefab
+  artifactKey: Guid(0d96f7bd47e015244b495190ca7e753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Traditional.prefab using Guid(0d96f7bd47e015244b495190ca7e753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4318c0f62b4bfcd3ff0552504c88093c') in 0.020364 seconds
+  Import took 0.025462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab
+  artifactKey: Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab using Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33bd6c3cefa95424b68fc68d33519c') in 0.020298 seconds
+  Import took 0.025635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Traditional.prefab
+  artifactKey: Guid(0d96f7bd47e015244b495190ca7e753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Traditional.prefab using Guid(0d96f7bd47e015244b495190ca7e753d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4318c0f62b4bfcd3ff0552504c88093c') in 0.010121 seconds
+  Import took 0.015507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab
+  artifactKey: Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab using Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33bd6c3cefa95424b68fc68d33519c') in 0.010810 seconds
+  Import took 0.016223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.424534 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating
+  artifactKey: Guid(3c5bfbe6f8d944a2ea00f92e8ea86bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating using Guid(3c5bfbe6f8d944a2ea00f92e8ea86bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24be427c8bdcf44b50f1c0e0b89dad15') in 0.005900 seconds
+  Import took 0.011383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082964 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab
+  artifactKey: Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab using Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef589c3c0149d17e4b0e8b35bad98feb') in 0.024696 seconds
+  Import took 0.030183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab
+  artifactKey: Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab using Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91e611e82257fdcacdb26367e86675') in 0.024409 seconds
+  Import took 0.029497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Red.prefab
+  artifactKey: Guid(b951a849336641c4fab7cc6d23fd2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Red.prefab using Guid(b951a849336641c4fab7cc6d23fd2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3961298fd40a3250d1d8ef204debfd7') in 0.024244 seconds
+  Import took 0.029156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gold.prefab
+  artifactKey: Guid(9fd62c09090ff5448be42411d830128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gold.prefab using Guid(9fd62c09090ff5448be42411d830128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa31141d9f967173b31532d05a656e4') in 0.029389 seconds
+  Import took 0.035307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab
+  artifactKey: Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab using Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4382aa3efacbfc6265b85cd1037fc2') in 0.030878 seconds
+  Import took 0.035917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab
+  artifactKey: Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab using Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5885104dfbf292def74c1ad2fa9e3e7') in 0.031669 seconds
+  Import took 0.036898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab
+  artifactKey: Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab using Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d113b7a325cf724b4edc1610808fbb') in 0.021183 seconds
+  Import took 0.026721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab
+  artifactKey: Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab using Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d113b7a325cf724b4edc1610808fbb') in 0.010291 seconds
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 357.006270 seconds.
+  path: Assets/_Course Library/_Prefabs/Fireplaces
+  artifactKey: Guid(bbe11c6a4e61e4be3aa2a6366b2d0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Fireplaces using Guid(bbe11c6a4e61e4be3aa2a6366b2d0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b58726ceb472960b4424eebd1a17af') in 0.006752 seconds
+  Import took 0.013066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063466 seconds.
+  path: Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Modern.prefab
+  artifactKey: Guid(f654ef212370c2948b593977bd733164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Modern.prefab using Guid(f654ef212370c2948b593977bd733164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c23900d0711234a9120861eb497dc68') in 0.066593 seconds
+  Import took 0.071880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Traditional.prefab
+  artifactKey: Guid(deb9c7803f41d864c8272ceb6ff2d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Traditional.prefab using Guid(deb9c7803f41d864c8272ceb6ff2d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2674149e28305dd9db4e02cded76b30') in 0.036261 seconds
+  Import took 0.041196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Rustic.prefab
+  artifactKey: Guid(9613f127c4654fd4ca17526faa6e34bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Rustic.prefab using Guid(9613f127c4654fd4ca17526faa6e34bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d4eb145b6d40410918487750f6a2b5') in 0.049047 seconds
+  Import took 0.054179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.389264 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Cabinet_Modern.prefab
+  artifactKey: Guid(f7a65282a054cc846acdcfc67d1fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Cabinet_Modern.prefab using Guid(f7a65282a054cc846acdcfc67d1fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebc371b118af05865c766e02d31470f') in 0.020612 seconds
+  Import took 0.025984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab
+  artifactKey: Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab using Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efb53fe81a173f5e734228cc9b58bd7') in 0.018774 seconds
+  Import took 0.024619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab
+  artifactKey: Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab using Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02613dcaf9b2371d72793280050d18f') in 0.020487 seconds
+  Import took 0.025458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Traditional.prefab
+  artifactKey: Guid(bdf455b16ebfb444e8f26045732453b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Traditional.prefab using Guid(bdf455b16ebfb444e8f26045732453b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51696db83e6ac80c0432bf5fadc878c9') in 0.016573 seconds
+  Import took 0.021945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Traditional.prefab
+  artifactKey: Guid(8197e8d854c12244184c7c0f390c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Traditional.prefab using Guid(8197e8d854c12244184c7c0f390c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0efcf6931821043012f693c6bb3338') in 0.015838 seconds
+  Import took 0.021218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Cabinet_Traditional.prefab
+  artifactKey: Guid(8fc3fe44f914ec742ab17fca8615fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Cabinet_Traditional.prefab using Guid(8fc3fe44f914ec742ab17fca8615fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44648383f884733ef36af94833184079') in 0.020614 seconds
+  Import took 0.026409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab
+  artifactKey: Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab using Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d8624244e3a57e4b4ea50e95cb8069') in 0.021792 seconds
+  Import took 0.027202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab
+  artifactKey: Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab using Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83414abeed534227d826e7e09e15ad02') in 0.018664 seconds
+  Import took 0.024171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab
+  artifactKey: Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab using Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecea9dce63c12427d147e24a9d5e617') in 0.019017 seconds
+  Import took 0.024472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab
+  artifactKey: Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab using Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d1988f31d59a3fa9f808abc5c180ec') in 0.018824 seconds
+  Import took 0.024181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab
+  artifactKey: Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab using Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd64424ab0987539a081d6ba5233b25') in 0.021039 seconds
+  Import took 0.027250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab
+  artifactKey: Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab using Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd64424ab0987539a081d6ba5233b25') in 0.013288 seconds
+  Import took 0.019373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.789629 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls
+  artifactKey: Guid(53c9d8151c476476f840643e5837f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls using Guid(53c9d8151c476476f840643e5837f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed423a674ef686c8133412ac4b4d4ce') in 0.005966 seconds
+  Import took 0.011381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004945 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls
+  artifactKey: Guid(53c9d8151c476476f840643e5837f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls using Guid(53c9d8151c476476f840643e5837f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed423a674ef686c8133412ac4b4d4ce') in 0.001713 seconds
+  Import took 0.007213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059954 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Next.prefab
+  artifactKey: Guid(d5e9e9f2d02a0334b86aa06bda01f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Next.prefab using Guid(d5e9e9f2d02a0334b86aa06bda01f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d5cb04c49c079f5439c1480a8a2307') in 0.018913 seconds
+  Import took 0.024254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Slider_Blue.prefab
+  artifactKey: Guid(9d212ff47e36da14ab04befe7439b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Slider_Blue.prefab using Guid(9d212ff47e36da14ab04befe7439b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daba93c7cc4e99838a97fac3612f5aa') in 0.019107 seconds
+  Import took 0.024344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Lever_Yellow.prefab
+  artifactKey: Guid(8e5de6ea3a1c74dd6befd58bc007f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Lever_Yellow.prefab using Guid(8e5de6ea3a1c74dd6befd58bc007f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f247d0f7cb41e9b41e702c205a26ad') in 0.019482 seconds
+  Import took 0.025242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab
+  artifactKey: Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab using Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ca97acb6439d7c0e1f4fc91fa6e9d7') in 0.020185 seconds
+  Import took 0.025670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Play.prefab
+  artifactKey: Guid(428d8ab7f1bad63438fe7b60f6414cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Play.prefab using Guid(428d8ab7f1bad63438fe7b60f6414cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55964306e71dcbf6cb8d8384d9977c17') in 0.018977 seconds
+  Import took 0.024294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001765 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Play.prefab
+  artifactKey: Guid(428d8ab7f1bad63438fe7b60f6414cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Play.prefab using Guid(428d8ab7f1bad63438fe7b60f6414cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55964306e71dcbf6cb8d8384d9977c17') in 0.010456 seconds
+  Import took 0.016658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.434618 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting
+  artifactKey: Guid(ed90ab490f62c4056a7e90df2d38bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting using Guid(ed90ab490f62c4056a7e90df2d38bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7868e9bfe1d6c29edab46ab8ac9c9fe') in 0.005778 seconds
+  Import took 0.012038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.593444 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants
+  artifactKey: Guid(b338f95acde9148fda20257876334e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants using Guid(b338f95acde9148fda20257876334e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c67f6d0a65cca02ea1749040fb5212c') in 0.005813 seconds
+  Import took 0.011580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.094843 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab
+  artifactKey: Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab using Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd3297e6f22d2f5fb90e4daa1da60eb') in 0.030328 seconds
+  Import took 0.035593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab
+  artifactKey: Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab using Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981278f8234c91a73d5c92176d4dd8ea') in 0.044892 seconds
+  Import took 0.049915 seconds .
+
